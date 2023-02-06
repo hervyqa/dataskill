@@ -26,7 +26,7 @@ theme:
     - content.action.view
     - content.tabs.link
     - navigation.footer
-    # - navigation.indexes
+    - navigation.indexes
     - navigation.instant
     - navigation.tabs
     - navigation.top
@@ -82,6 +82,7 @@ extra:
 # Extensions
 markdown_extensions:
   - admonition
+  - attr_list
   - footnotes
   - pymdownx.details
   - pymdownx.inlinehilite
@@ -95,6 +96,9 @@ markdown_extensions:
       alternate_style: true
   - pymdownx.tasklist:
       custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
@@ -119,5 +123,5 @@ nav:
       - Julia dasar: pemrograman/julia/index.md
   - Statistika:
     - Dasar: statistika/dasar/index.md
-  - Sample: sample.md
+  - Sample Page: sample.md
 
