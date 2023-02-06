@@ -1,0 +1,86 @@
+site_name: Vytamin - Belajar Data Science Otodidak
+site_url: https://vytamin.hervyqa.id
+repo_name: hervyqa/vytamin
+repo_url: https://github.com/hervyqa/vytamin
+
+nav:
+  - Pemrograman:
+    - SQL:
+      - pemrograman/sql/index.md
+      - SQL dasar: pemrograman/sql/sql-dasar/index.md
+      - Tipe data: pemrograman/sql/tipe-data/index.md
+    - Python:
+      - Python dasar: pemrograman/python/index.md
+    - R:
+      - R dasar: pemrograman/r/index.md
+    - Scala:
+      - Scala dasar: pemrograman/scala/index.md
+    - Julia:
+      - Julia dasar: pemrograman/julia/index.md
+  - Statistika:
+    - Dasar: statistika/dasar/index.md
+
+markdown_extensions:
+  - toc:
+      permalink: "#"
+
+plugins:
+  - tags
+  - search
+
+theme:
+  name: material
+  highlightjs: true
+  language: id
+  font:
+    text: Roboto
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.top
+    - navigation.tracking
+    - toc.integrate
+    - navigation.footer
+  palette:
+    # automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Pindah Dark mode
+    # dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Pindah Light mode
+    # light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Pindah Tema sistem
+
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/hervyqa
+    - icon: fontawesome/brands/github
+      link: https://github.com/hervyqa
+    - icon: fontawesome/brands/gitlab
+      link: https://gitlab.com/hervyqa
+    - icon: fontawesome/brands/mastodon
+      link: https://mastodon.art/@hervyqa
+    - icon: fontawesome/brands/facebook
+      link: https://facebook.com/hervyqa
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/hervyqa
+  consent:
+    title: Persetujuan cookie
+    actions:
+      - accept
+      - manage
+    description: >-
+      Kami juga menggunakan cookie untuk mengenali kunjungan dan preferensi
+      Anda yang berulang untuk mengukur efektivitas dokumentasi kami dan
+      apakah pengguna menemukan apa yang mereka cari. Dengan persetujuan Anda,
+      Anda membantu kami untuk membuat dokumentasi kami lebih baik.
