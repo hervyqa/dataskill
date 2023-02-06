@@ -3,7 +3,7 @@ mkdocs-autorefs
 mkdocs-jupyter
 mkdocs-material
 mkdocs-material-extensions
-mkdocs-minify
+mkdocs-minify-plugin
 mkdocstrings
 mkdocstrings-python
 pymdown-extensions
