@@ -1,58 +1,25 @@
-site_name: Vytamin | Belajar Data Science
+# Project information
+site_name: Vytamin | Belajar Data Science (WIP)
 site_url: https://vytamin.hervyqa.id
+
+# Repository
 repo_name: hervyqa/vytamin
 repo_url: https://github.com/hervyqa/vytamin
 
-nav:
-  - Beranda: index.md
-  - Pemrograman:
-    - SQL:
-      - pemrograman/sql/index.md
-      - SQL dasar: pemrograman/sql/sql-dasar/index.md
-      - Tipe data: pemrograman/sql/tipe-data/index.md
-    - Python:
-      - Python dasar: pemrograman/python/index.md
-    - R:
-      - R dasar: pemrograman/r/index.md
-    - Scala:
-      - Scala dasar: pemrograman/scala/index.md
-    - Julia:
-      - Julia dasar: pemrograman/julia/index.md
-  - Statistika:
-    - Dasar: statistika/dasar/index.md
+# Copyright
+copyright: Copyright &copy; 2023 - Hervy Qurrotul Ainur Rozi
 
-markdown_extensions:
-  - admonition
-  - footnotes
-  - pymdownx.details
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - tables
-  - toc:
-      permalink: "#"
-  - pymdownx.highlight:
-      anchor_linenums: true
-  - pymdownx.tabbed:
-      alternate_style: true
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
-
-plugins:
-  - tags
-  - search
-
+# Configuration
 theme:
   name: material
   highlightjs: true
   language: id
-  font:
-    text: Roboto
   icon:
     edit: material/pencil
     view: material/eye
+  font:
+    text: Roboto
+    code: Roboto Mono
   features:
     - content.code.annotate
     - content.action.edit
@@ -78,6 +45,15 @@ theme:
         icon: material/brightness-7
         name: Mode gelap
 
+#Plugins
+plugins:
+  - tags
+  - search:
+      separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - minify:
+      minify_html: true
+
+# Customization
 extra:
   social:
     - icon: fontawesome/brands/linkedin
@@ -103,4 +79,45 @@ extra:
       apakah pengguna menemukan apa yang mereka cari. Dengan persetujuan Anda,
       Anda membantu kami untuk membuat dokumentasi kami lebih baik.
 
-copyright: Copyright &copy; 2023 - Hervy Qurrotul Ainur Rozi
+# Extensions
+markdown_extensions:
+  - admonition
+  - footnotes
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - tables
+  - toc:
+      permalink: "#"
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+# Page tree
+nav:
+  - Beranda: index.md
+  - Pemrograman:
+    - SQL:
+      - pemrograman/sql/index.md
+      - SQL dasar: pemrograman/sql/sql-dasar/index.md
+      - Tipe data: pemrograman/sql/tipe-data/index.md
+    - Python:
+      - Python dasar: pemrograman/python/index.md
+    - R:
+      - R dasar: pemrograman/r/index.md
+    - Scala:
+      - Scala dasar: pemrograman/scala/index.md
+    - Julia:
+      - Julia dasar: pemrograman/julia/index.md
+  - Statistika:
+    - Dasar: statistika/dasar/index.md
+  - Sample: sample.md
+
