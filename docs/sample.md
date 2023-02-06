@@ -5,7 +5,13 @@ etiam. Faucibus et molestie ac feugiat sed. A arcu cursus vitae congue mauris.
 In mollis nunc sed id semper risus. Dui id ornare arcu odio ut sem. Cursus
 mattis molestie a iaculis. Iaculis at erat pellentesque adipiscing. Rhoncus urna
 neque viverra justo. Ipsum nunc aliquet bibendum enim facilisis gravida neque
-convallis a.
+convallis.
+
+## Emoji
+
+:smile:
+:heart_eyes:
+:joy:
 
 ## Code
 
