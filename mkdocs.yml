@@ -1,9 +1,10 @@
-site_name: Vytamin - Belajar Data Science Otodidak
+site_name: Vytamin | Belajar Data Science Otodidak
 site_url: https://vytamin.hervyqa.id
 repo_name: hervyqa/vytamin
 repo_url: https://github.com/hervyqa/vytamin
 
 nav:
+  - Beranda: index.md
   - Pemrograman:
     - SQL:
       - pemrograman/sql/index.md
@@ -35,12 +36,13 @@ theme:
   font:
     text: Roboto
   features:
+    - content.action.edit
+    - navigation.footer
+    - navigation.indexes
     - navigation.instant
     - navigation.tabs
     - navigation.top
     - navigation.tracking
-    - toc.integrate
-    - navigation.footer
   palette:
     # automatic mode
     - media: "(prefers-color-scheme)"
@@ -84,3 +86,5 @@ extra:
       Anda yang berulang untuk mengukur efektivitas dokumentasi kami dan
       apakah pengguna menemukan apa yang mereka cari. Dengan persetujuan Anda,
       Anda membantu kami untuk membuat dokumentasi kami lebih baik.
+
+copyright: Copyright &copy; 2023 - Hervy Qurrotul Ainur Rozi
