@@ -1,4 +1,4 @@
-site_name: Vytamin | Belajar Data Science Otodidak
+site_name: Vytamin | Belajar Data Science
 site_url: https://vytamin.hervyqa.id
 repo_name: hervyqa/vytamin
 repo_url: https://github.com/hervyqa/vytamin
@@ -22,8 +22,23 @@ nav:
     - Dasar: statistika/dasar/index.md
 
 markdown_extensions:
+  - admonition
+  - footnotes
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - tables
   - toc:
       permalink: "#"
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
 
 plugins:
   - tags
@@ -35,32 +50,33 @@ theme:
   language: id
   font:
     text: Roboto
+  icon:
+    edit: material/pencil
+    view: material/eye
   features:
+    - content.code.annotate
     - content.action.edit
+    - content.action.view
+    - content.tabs.link
     - navigation.footer
-    - navigation.indexes
+    # - navigation.indexes
     - navigation.instant
     - navigation.tabs
     - navigation.top
     - navigation.tracking
   palette:
-    # automatic mode
-    - media: "(prefers-color-scheme)"
-      toggle:
-        icon: material/brightness-auto
-        name: Pindah Dark mode
     # dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       toggle:
         icon: material/brightness-4
-        name: Pindah Light mode
+        name: Mode terang
     # light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
       toggle:
         icon: material/brightness-7
-        name: Pindah Tema sistem
+        name: Mode gelap
 
 extra:
   social:
