@@ -42,6 +42,7 @@ theme:
     # light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
+      primary: dataskill
       toggle:
         icon: material/brightness-7
         name: Mode gelap
