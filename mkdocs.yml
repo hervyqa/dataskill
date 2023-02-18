@@ -18,8 +18,8 @@ theme:
     edit: material/pencil
     view: material/eye
   font:
-    text: Roboto
-    code: Roboto Mono
+    text: Noto Serif
+    code: Hack
   features:
     - content.code.annotate
     - content.action.edit
