@@ -35,6 +35,7 @@ theme:
     # dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
+      primary: dataskill
       toggle:
         icon: material/brightness-4
         name: Mode terang
@@ -44,6 +45,9 @@ theme:
       toggle:
         icon: material/brightness-7
         name: Mode gelap
+
+extra_css:
+  - stylesheets/extra.css
 
 #Plugins
 plugins:
