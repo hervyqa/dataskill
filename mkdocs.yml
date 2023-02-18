@@ -113,20 +113,22 @@ markdown_extensions:
 # Page tree
 nav:
   - Beranda: index.md
-  - Pemrograman:
-    - SQL:
-      - pemrograman/sql/index.md
-      - SQL dasar: pemrograman/sql/sql-dasar/index.md
-      - Tipe data: pemrograman/sql/tipe-data/index.md
-    - Python:
-      - Python dasar: pemrograman/python/index.md
-    - R:
-      - R dasar: pemrograman/r/index.md
-    - Scala:
-      - Scala dasar: pemrograman/scala/index.md
-    - Julia:
-      - Julia dasar: pemrograman/julia/index.md
+  - Python:
+    - Python dasar: python/index.md
+  - R:
+    - R dasar: r/index.md
+  - Scala:
+    - Scala dasar: scala/index.md
+  - Julia:
+    - Julia dasar: julia/index.md
+  - SQL:
+    - sql/index.md
+    - SQL dasar: sql/sql-dasar/index.md
+    - Tipe data: sql/tipe-data/index.md
+  - PostgreSQL:
+    - PostgreSQL dasar: postgresql/index.md
+  - MongoDB:
+    - MongoDB dasar: mongodb/index.md
   - Statistika:
     - Dasar: statistika/dasar/index.md
-  - Sample Page: sample.md
 
