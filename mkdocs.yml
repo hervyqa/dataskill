@@ -21,16 +21,22 @@ theme:
     text: Noto Serif
     code: Hack
   features:
-    - content.code.annotate
     - content.action.edit
     - content.action.view
+    - content.code.annotate
     - content.tabs.link
+    - content.tooltips
+    - navigation.expand
     - navigation.footer
     - navigation.indexes
     - navigation.instant
     - navigation.tabs
     - navigation.top
     - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
   palette:
     # dark mode
     - media: "(prefers-color-scheme: dark)"
@@ -119,7 +125,9 @@ markdown_extensions:
 nav:
   - Beranda: index.md
   - Python:
-    - Python dasar: python/index.md
+    - Variabel dan Tipe data:
+      - Menulis Variabel: python/menulis-variabel.md
+      - Mengenal Jenis Variabel: python/mengenal-jenis-variabel.md
   - R:
     - R dasar: r/index.md
   - Scala:
@@ -128,8 +136,8 @@ nav:
     - Julia dasar: julia/index.md
   - SQL:
     - sql/index.md
-    - SQL dasar: sql/sql-dasar/index.md
-    - Tipe data: sql/tipe-data/index.md
+    - SQL dasar: sql/sql-dasar.md
+    - Tipe data: sql/tipe-data.md
   - PostgreSQL:
     - PostgreSQL dasar: postgresql/index.md
   - MongoDB:
