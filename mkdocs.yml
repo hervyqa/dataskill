@@ -1,5 +1,5 @@
 # Project information
-site_name: DataSkill | Belajar Data Science (WIP)
+site_name: DataSkill | Belajar Data Science (Draft)
 site_url: https://dataskill.hervyqa.id
 
 # Repository
@@ -125,6 +125,9 @@ markdown_extensions:
 nav:
   - Beranda: index.md
   - Python:
+    - Pendahuluan:
+      - Menyiapkan Pembelajaran: python/menyiapkan-pembelajaran.md
+      - Manfaat dan Tujuan Belajar: python/manfaat-dan-tujuan-belajar.md
     - Variabel dan Tipe data:
       - Menulis Variabel: python/menulis-variabel.md
       - Mengenal Jenis Variabel: python/mengenal-jenis-variabel.md

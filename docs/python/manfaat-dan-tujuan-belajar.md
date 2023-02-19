@@ -1,4 +1,4 @@
-# Mengenal Jenis Variabel
+# Manfaat dan Tujuan Belajar
 
 Tristique senectus et netus et. Sed vulputate odio ut enim blandit
 volutpat maecenas. Egestas fringilla phasellus faucibus scelerisque eleifend.
